@@ -11,6 +11,7 @@ import './styles/styles.css';
 
 const store = configureStore();
 
+console.log('test');
 
 // store.dispatch(addExpense({description: 'Water Bill', amount:4500, createdAt:0 }));
 // store.dispatch(addExpense({description: 'Gas Bill', amount:0, createdAt:1000 }));
