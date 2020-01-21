@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
@@ -23,8 +22,6 @@
     "css-loader": "0.28.4",
     "express": "^4.17.1",
     "extract-text-webpack-plugin": "4.0.0-beta.0",
-    "jest": "^24.9.0",
-    "live-server": "^1.2.1",
     "moment": "2.18.1",
     "normalize.css": "8.0.1",
     "react": "16.0.0",
@@ -39,7 +36,10 @@
     "uuid": "^3.3.3",
     "validator": "8.0.0",
     "webpack": "4.39.2",
-    "webpack-cli": "^3.3.7",
+    "webpack-cli": "^3.3.7"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
     "webpack-dev-server": "3.8.0"
   }
 }
